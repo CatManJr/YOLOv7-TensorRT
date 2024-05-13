@@ -1,0 +1,18 @@
+transform onnx  to tensorRT model
+# 640
+.\trtexec.exe    --onnx=E:\Git\YOLOv7\ONNX\yolov7-tiny.onnx  --saveEngine=E:\Git\YOLOv7-TensorRT\yolov7-tiny.trt  --buildOnly --minShapes=images:1x3x640x640 --optShapes=images:4x3x640x640 --maxShapes=images:8x3x640x640
+.\trtexec.exe    --onnx=E:\Git\YOLOv7\ONNX\yolov7.onnx   --saveEngine=E:\Git\YOLOv7-TensorRT\yolov7.trt   --buildOnly --minShapes=images:1x3x640x640 --optShapes=images:4x3x640x640 --maxShapes=images:8x3x640x640
+.\trtexec.exe    --onnx=E:\Git\YOLOv7\ONNX\yolov7x.onnx   --saveEngine=E:\Git\YOLOv7-TensorRT\yolov7x.trt  --buildOnly --minShapes=images:1x3x640x640 --optShapes=images:4x3x640x640 --maxShapes=images:8x3x640x640
+# 1280
+.\trtexec.exe    --onnx=E:\Git\YOLOv7\ONNX\yolov7-w6.onnx    --saveEngine=E:\Git\YOLOv7-TensorRT\yolov7-w6.trt    --buildOnly --minShapes=images:1x3x1280x1280 --optShapes=images:4x3x1280x1280 --maxShapes=images:8x3x1280x1280
+
+以此类推，编译其他onnx方式存储的预训练模型
+compile every .onnx models accepted by TensorRT using command lines above.
+
+reasoning（eg.）
+// images
+.\YOLOv7-trt.exe --model=E:\Git\YOLOv7-trt\model-trt\yolov7-tiny.trt --size=640  --batch_size=1  --img=E:\Git\YOLOv7-trt\sample\2.png  --show --savePath=E:\Git\YOLOv7-trt\sample-result\
+// video
+.\YOLOv7-trt.exe --model=E:\Git\YOLOv7-trt\model-trt\yolov7-tiny.trt --size=640  --batch_size=2  --video=E:\Git\YOLOv7-trt\sample\people.mp4  --show --savePath=E:\Git\YOLOv7-trt\sample-result\
+// camera
+.\YOLOv7-trt.exe --model=E:\Git\YOLOv7-trt\model-trt\yolov7-tiny.trt --size=640  --batch_size=2  ----cam_id=0  --show --savePath=E:\Git\YOLOv7-trt\sample-result\

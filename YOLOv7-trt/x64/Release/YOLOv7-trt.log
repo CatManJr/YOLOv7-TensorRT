@@ -1,0 +1,304 @@
+﻿  Compiling CUDA source file kernel_function.h...
+  Compiling CUDA source file kernel_function.cu...
+  
+  E:\Git\YOLOv7-trt\YOLOv7-trt>"D:\Nvidia developer toolkits\Nvidia GPU Computing Toollit\CUDA12.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Microsoft\VisualStudio\Community2022\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64" -x cu   -I"D:\Nvidia developer toolkits\Nvidia GPU Computing Toollit\CUDA12.4\include" -I"D:\Nvidia developer toolkits\Nvidia GPU Computing Toollit\CUDA12.4\include"     --keep-dir x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DNDEBUG -D_CONSOLE -D_CRT_SECURE_NO_WARNINGS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o E:\Git\YOLOv7-trt\YOLOv7-trt\x64\Release\kernel_function.h.obj "E:\Git\YOLOv7-trt\YOLOv7-trt\kernel_function.h" 
+  
+  E:\Git\YOLOv7-trt\YOLOv7-trt>"D:\Nvidia developer toolkits\Nvidia GPU Computing Toollit\CUDA12.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Microsoft\VisualStudio\Community2022\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64" -x cu   -I"D:\Nvidia developer toolkits\Nvidia GPU Computing Toollit\CUDA12.4\include" -I"D:\Nvidia developer toolkits\Nvidia GPU Computing Toollit\CUDA12.4\include"     --keep-dir x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DNDEBUG -D_CONSOLE -D_CRT_SECURE_NO_WARNINGS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o E:\Git\YOLOv7-trt\YOLOv7-trt\x64\Release\kernel_function.cu.obj "E:\Git\YOLOv7-trt\YOLOv7-trt\kernel_function.cu" 
+D:\Nvidia developer toolkits\TensorRT-8.6.1.6\include\NvInfer.h(6125): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Nvidia developer toolkits/Nvidia GPU Computing Toollit/CUDA12.4/include\cuda.h(22423): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Nvidia developer toolkits/Nvidia GPU Computing Toollit/CUDA12.4/include\cub/warp/specializations/warp_exchange_shfl.cuh(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Nvidia developer toolkits\TensorRT-8.6.1.6\include\NvInfer.h(6125): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Nvidia developer toolkits/Nvidia GPU Computing Toollit/CUDA12.4/include\cuda.h(22423): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Nvidia developer toolkits/Nvidia GPU Computing Toollit/CUDA12.4/include\cub/warp/specializations/warp_exchange_shfl.cuh(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+D:\Nvidia developer toolkits\TensorRT-8.6.1.6\include\NvInfer.h(6125): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Nvidia developer toolkits/Nvidia GPU Computing Toollit/CUDA12.4/include\cuda.h(22423): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Nvidia developer toolkits/Nvidia GPU Computing Toollit/CUDA12.4/include\cub/warp/specializations/warp_exchange_shfl.cuh(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Nvidia developer toolkits\TensorRT-8.6.1.6\include\NvInfer.h(6125): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Nvidia developer toolkits/Nvidia GPU Computing Toollit/CUDA12.4/include\cuda.h(22423): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:/Nvidia developer toolkits/Nvidia GPU Computing Toollit/CUDA12.4/include\cub/warp/specializations/warp_exchange_shfl.cuh(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+D:\OpenCV\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+  kernel_function.h
+  tmpxft_000010dc_00000000-7_kernel_function.cudafe1.cpp
+  kernel_function.cu
+  tmpxft_00006568_00000000-7_kernel_function.cudafe1.cpp
+E:\Git\YOLOv7-trt\YOLOv7-trt\kernel_function.cu(672): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\kernel_function.cu(676): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\kernel_function.cu(684): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\kernel_function.cu(687): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\kernel_function.cu(695): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\kernel_function.cu(697): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\kernel_function.cu(704): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  app_yolov7.cpp
+D:\Nvidia developer toolkits\TensorRT-8.6.1.6\include\NvInfer.h(6125,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app_yolov7.cpp”)
+  
+D:\Nvidia developer toolkits\Nvidia GPU Computing Toollit\CUDA12.4\include\cuda.h(22423,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“app_yolov7.cpp”)
+  
+E:\Git\YOLOv7-trt\YOLOv7-trt\app_yolov7.cpp(48,87): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+  logger.cpp
+D:\Nvidia developer toolkits\TensorRT-8.6.1.6\include\NvInfer.h(6125,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“logger.cpp”)
+  
+D:\Nvidia developer toolkits\TensorRT-8.6.1.6\samples\common\ErrorRecorder.h(51,32): warning C4267: “return”: 从“size_t”转换到“int32_t”，可能丢失数据
+  (编译源文件“logger.cpp”)
+  
+  utils.cpp
+D:\Nvidia developer toolkits\TensorRT-8.6.1.6\include\NvInfer.h(6125,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“utils.cpp”)
+  
+D:\Nvidia developer toolkits\Nvidia GPU Computing Toollit\CUDA12.4\include\cuda.h(22423,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“utils.cpp”)
+  
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(85,29): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(86,51): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(97,27): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(98,27): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,57): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,57): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,57): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,57): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,57): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,47): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,47): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,47): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,47): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,47): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,88): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,88): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,88): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,88): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,88): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,77): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,77): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,77): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,77): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(172,77): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(174,48): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(174,48): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(174,48): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(174,48): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(174,48): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(174,38): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(174,38): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(174,38): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(174,38): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(174,38): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(175,71): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(175,71): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(175,71): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(175,71): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(175,71): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(175,44): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(175,44): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(175,44): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(175,44): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(175,44): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(176,76): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(176,76): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(176,76): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(176,76): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(176,76): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(176,44): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(176,44): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(176,44): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(176,44): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(176,44): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(177,53): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(177,53): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(177,53): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(177,53): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(177,53): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(177,38): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(177,38): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(177,38): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(177,38): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(177,38): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,57): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,57): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,57): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,57): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,57): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,47): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,47): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,47): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,47): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,47): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,88): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,88): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,88): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,88): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,88): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,77): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,77): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,77): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,77): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(220,77): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(222,48): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(222,48): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(222,48): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(222,48): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(222,48): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(222,38): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(222,38): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(222,38): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(222,38): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(222,38): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(223,71): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(223,71): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(223,71): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(223,71): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(223,71): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(223,44): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(223,44): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(223,44): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(223,44): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(223,44): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(224,76): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(224,76): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(224,76): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(224,76): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(224,76): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(224,44): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(224,44): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(224,44): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(224,44): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(224,44): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(225,53): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(225,53): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(225,53): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(225,53): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(225,53): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(225,38): warning C4244: “参数”: 从“const float”转换到“_Tp”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(225,38): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(225,38): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(225,38): warning C4244:             _Tp=int
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(225,38): warning C4244:         ]
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(239,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(254,11): warning C4244: “return”: 从“_Rep”转换到“float”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(254,11): warning C4244:         with
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(254,11): warning C4244:         [
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(254,11): warning C4244:             _Rep=double
+E:\Git\YOLOv7-trt\YOLOv7-trt\utils.cpp(254,11): warning C4244:         ]
+  yolo.cpp
+D:\Nvidia developer toolkits\TensorRT-8.6.1.6\include\NvInfer.h(6125,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“yolo.cpp”)
+  
+D:\Nvidia developer toolkits\Nvidia GPU Computing Toollit\CUDA12.4\include\cuda.h(22423,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  (编译源文件“yolo.cpp”)
+  
+E:\Git\YOLOv7-trt\YOLOv7-trt\yolo.cpp(24,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\yolo.cpp(73,73): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\yolo.cpp(188,25): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\yolo.cpp(190,26): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\yolo.cpp(192,23): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\yolo.cpp(194,26): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+E:\Git\YOLOv7-trt\YOLOv7-trt\yolo.cpp(223,27): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 1018 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  YOLOv7-trt.vcxproj -> E:\Git\YOLOv7-trt\x64\Release\YOLOv7-trt.exe
